@@ -41,7 +41,6 @@ main>.bem-vindo {
     font-size: 1em;
 }
 
-
 #conteudo {
     padding-top: 50px;
     max-width: 100%;
@@ -99,7 +98,7 @@ footer a:hover {
 }
 
 /*pagina orcamento*/
-main > .preenchimentoFormulario{
+main>.preenchimentoFormulario {
     text-align: center;
     font-size: 1.8em;
     color: white;
@@ -107,7 +106,7 @@ main > .preenchimentoFormulario{
 }
 
 
-.forms{
+.forms {
     padding-top: 30px;
     margin: auto;
     flex-direction: column;
@@ -117,7 +116,7 @@ main > .preenchimentoFormulario{
 }
 
 
-.buttonEnvio{
+.buttonEnvio {
     height: 35px;
     border-radius: 5px;
     background-color: #3576ca;
@@ -127,23 +126,110 @@ main > .preenchimentoFormulario{
 }
 
 /*pagina sobre*/
-main .apresentacao{
+main .apresentacao {
     padding: 20px 15px;
     text-align: center;
     color: white;
 }
 
-main .apresentacao h1{
+main .apresentacao h1 {
     font-family: "Poppins";
     font-weight: bold;
     font-size: 1.2em;
 }
 
-main .apresentacao p{
+main .apresentacao p {
     text-align: center;
     width: 100%;
     font-family: "Poppins";
     font-weight: normal;
     color: white;
     font-size: 1em;
+}
+
+#apresentacaoProduto {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#apresentacaoProduto h2 {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#apresentacaoProduto .imgApresentacao {
+    background-color: #042959c1;
+    border-radius: 5px;
+}
+
+#apresentacaoLicencas {
+    margin-bottom: 7em;
+}
+
+#apresentacaoLicencas h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+#apresentacaoLicencas p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: 500;
+}
+
+#apresentacaoLicencas button {
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#apresentacaoLicencas a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#apresentacaoFornecedores {
+    background-color: white;
+    margin-top: 30px;
+}
+
+#apresentacaoFornecedores h2 {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+swiper-container {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+swiper-slide {
+    padding-top: 30px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
 }
