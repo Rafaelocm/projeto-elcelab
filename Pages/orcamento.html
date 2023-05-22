@@ -26,44 +26,44 @@
     <main class="sobre">
         <p class="preenchimentoFormulario">Preencha o Formulário</p>
 
+        <div id="alertInformacoes"
+            style="display: none; background-color: white; width: 100%; align-items: center; justify-content: center;">
+            <p>Olá, por favor informe todas as informações abaixo.</p>
+            <button id="alertInfomacoesIncompletas" type="submit"
+                style="background-color: black; color: white; width: 40%; height: 40px;">Ok</button>
+        </div>
+
         <form action="#" method="#" class="forms">
 
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome"
+                        aria-labelledby="nome" required>
                     <label for="nome">Nome *</label>
                 </div>
             </div>
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="email" name="email" placeholder="name@example.com"
-                        required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com"
+                        aria-labelledby="email" required>
                     <label for="email">Email *</label>
                 </div>
             </div>
-            </div>
-
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="XX.XXX.XXX/XXXX-XX">
-                    <label for="cnpj">CNPJ</label>
+                    <input type="text" class="form-control" id="cnpj" name="cnpj" placeholder="XX.XXX.XXX/XXXX-XX"
+                        aria-labelledby="cnpj ou cpf" required>
+                    <label for="cnpj">CNPJ ou CPF *</label>
                 </div>
-            </div>
-            <div class="col-md">
-                <div class="form-floating">
-                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="XX.XXX.XXX/XXXX-XX">
-                    <label for="cpf">CPF</label>
-                </div>
-            </div>
             </div>
             <div class="col-md">
                 <div class="form-floating">
                     <textarea name="assunto" class="form-control" id="assunto" cols="30" rows="30" placeholder="Assunto"
-                        style="height: 140px;"></textarea  required>
-                    <label for="assunto">Assunto</label>
+                        style="height: 140px;" aria-labelledby="Assunto" required></textarea>
+                    <label for="assunto">Assunto *</label>
                 </div>
             </div>
-            <input type="submit" id="submit" value="Enviar Formulário" class="buttonEnvio">
+            <input type="submit" id="submit" class="buttonEnvio" value="Enviar mensagem">
         </form>
     </main>
 
