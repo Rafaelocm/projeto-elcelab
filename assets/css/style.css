@@ -117,12 +117,18 @@ main>.preenchimentoFormulario {
 
 
 .buttonEnvio {
-    height: 35px;
-    border-radius: 5px;
-    background-color: #3576ca;
+    border-radius: 10px;
+    background-color: #157347;
     color: white;
+    font-size: 1.2em;
+    height: 40px;
+    padding: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+}
+
+.meu-estilo-caixa-dialogo{
+    background-color: transparent;
 }
 
 /*pagina sobre*/
@@ -195,11 +201,23 @@ main .apresentacao p {
     border-radius: 5px;
 }
 
+#apresentacaoLicencas button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
 #apresentacaoLicencas a {
     color: black;
     font-size: 1.2em;
     text-decoration: none;
 }
+
+#apresentacaoLicencas a:hover {
+    color: #034dad;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
 
 #apresentacaoFornecedores {
     background-color: white;
